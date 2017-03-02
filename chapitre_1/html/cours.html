@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Introduction à Javascript</title>
+</head>
+    <body>
+        <!-- Ceci est un commentaire -->
+        
+        <h3>Voici un petit mémo :-)</h3>
+        <h4>Mémo du Javascript :</h4>
+        <p> \n permet d'effectuer un retour à la ligne dans une chaîne de caractères</p>
+        <p><h5>Concaténation :</h5> + . Ex: "Bon"+"jour" donne "Bonjour"</p>
+        <h5>Les commentaires</h5>
+        <p>Pour exclure certaines lignes de l'exécution on les préfixe de //.<br>
+        On les transforme donc en commentaires.</p>
+        <p>Les commentaires en Javascript:<br>
+
+        // Comentaire sur une ligne.<br>
+        /* */ Commentaires sur plusieurs lignes.
+        </p>
+        <h5>Les variables</h5>
+        <p>On déclare une variable à l'aide du mot-clé var
+        </p>
+        <p>var prenom = prompt("Entrez votre prénom :"); <br>
+            alert("Bonjour, " + prenom); <br> <br>
+            l'ordre prompt affiche une boîte contenant le message entre parenthèses <br>
+            l'ordre alert affiche une seconde boîte contenant le résultat de la concaténation de la chaîne "Bonjour" <br>
+            avec la valeur de la varable "prenom". 
+        </p>
+    <script src="../js/cours.js"></script>
+        <p><h5>Déboguage : </h5> dans firefox -> ouvrir le fichier html qui renvoie au fichier js -> alt -> outils -> <br>
+        développement web -> outils de développement -> débogueur -> console scindée. <br> <br>
+        Le débogueur permet d'afficher le ésultat de la commande console.log</p>
+        <h5>Les conditions</h5>
+<p>var nombre = Number(prompt("Entrez un nombre :")); <br>
+if (nombre > 0) {
+    console.log(nombre + " est positif"); <br>
+} <br>
+On appelle ce qui se trouve entre accolades un bloc de saisie associé à l'instruction if. <br>
+    Pour créer des expressions booléennes (vrai ou faux) on utilise des opérateurs de couparaisons : <br>
+    === Egal à <br>
+    !== Différent de <br>
+    < Inférieur à <br>
+    >= Inférieur ou égal à <br>
+    > Supérieur à <br>
+    >= Supérieur ou égal à <br>
+    <br>
+    L'opérateur logique ET : && <br>
+    L'opérateur logique OU : || <br>
+    
+</p>
+    
+    </body>
+</html>
